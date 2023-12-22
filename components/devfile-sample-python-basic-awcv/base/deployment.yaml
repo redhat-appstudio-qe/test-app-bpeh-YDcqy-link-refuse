@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-awcv
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-appstudio-qe/build-e2e-vpnm-tenant/test-app-bpeh/devfile-sample-python-basic-awcv@sha256:7e1185cc0c0db9b828d2f864058034006e5668a4f45f54305ba8ed23a21f93d8
         name: my-python
         ports:
         - containerPort: 8081
